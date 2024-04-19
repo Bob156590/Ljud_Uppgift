@@ -1,0 +1,23 @@
+.wrapper{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 80vh 10vH;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+body{
+    margin: 0;
+}
+
+main img{
+    width: 60vh;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
